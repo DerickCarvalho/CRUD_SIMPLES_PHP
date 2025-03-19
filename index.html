@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/imgs/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DerickCarvalho/DkStrap@main/DkStrap.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Movie List - Home</title>
+</head>
+<body class="ubuntu-regular">
+    <header class="flex-row-space-between">
+        <section class="logo flex-row-center">
+            <img src="./assets/imgs/logo.png" alt="">
+            <h1>Movie List</h1>
+        </section>
+        <nav class="flex-row-center">
+            <a href="./addFilme.html">Adicionar Filme</a>
+        </nav>
+    </header>
+
+    <main class="flex-row-center">
+        <table class="movie-list">
+            <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Gênero</th>
+                <th>Lançamento</th>
+                <th>Status</th>
+                <th>Opções</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Até o último homem</td>
+                <td>Guerra</td>
+                <td>2017</td>
+                <td>NÃO ASSISTIDO</td>
+                <td>
+                    <button style="background-color: #148600;">Assistido</button>
+                    <button style="background-color: #ffcc00;">Editar</button>
+                    <button style="background-color: #d10000;">Excluir</button>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
