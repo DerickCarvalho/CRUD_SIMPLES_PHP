@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #region CLASSES DA FONTE */
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* #endregion */
+
+/* #region CABECALHO */
+
+header {
+    background-color: #006480;
+    padding: 15px;
+
+    .logo {
+        cursor: pointer;
+
+        img {
+            width: 50px;
+        }
+    }
+
+    .logo h1 {
+        color: #FFFFFF;
+        padding-left: 10px;
+    }
+
+    nav {
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            background-color: #00495d;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #005971;
+        }
+    }
+}
+
+/* #endregion */
+
+/* #region CONTEUDO PRINCIPAL */
+
+main {
+  form {
+    width: 30%;
+    margin-top: 50px;
+    border: 5px solid #006480;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    .default-input {
+      padding: 5px;
+      font-size: 18px;
+      font-weight: 600;
+      width: 90%;
+      margin: 5px 0;
+      outline: none;
+      border: 1px solid #d7d7d7;
+      border-radius: 5px;
+    }
+
+    .button {
+      background-color: #00495d;
+      padding: 5px 10px;
+      font-size: 18px;
+      border-radius: 5px;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin: 25px 0 10px 0;
+      transition: linear transform 0.1s,
+                  background-color 0.1s,
+                  box-shadow 0.1s;
+    }
+
+    .button:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+      background-color: #006480;
+      box-shadow: 2px 2px 5px #006480;
+    }
+  }
+}
+
+/* #endregion */
+

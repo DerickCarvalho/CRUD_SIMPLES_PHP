@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #region CLASSES DA FONTE */
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* #endregion */
+
+/* #region CABECALHO */
+
+header {
+    background-color: #006480;
+    padding: 15px;
+
+    .logo {
+        cursor: pointer;
+
+        img {
+            width: 50px;
+        }
+    }
+
+    .logo h1 {
+        color: #FFFFFF;
+        padding-left: 10px;
+    }
+
+    nav {
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            background-color: #00495d;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #005971;
+        }
+    }
+}
+
+/* #endregion */
+
+/* #region CONTEUDO PRINCIPAL */
+
+main {
+    .movie-list {
+        margin-top: 50px;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .movie-list th {
+        font-size: 22px;
+    }
+
+    .movie-list tr {
+        text-align: center;
+    }
+
+    .movie-list td,
+    .movie-list th {
+        border-bottom: 1px solid #dbdbdb;
+    }
+
+    .movie-list th,
+    .movie-list td {
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .movie-list td button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        font-size: 18px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    .movie-list td button:hover {
+        transform: scale(1.05);
+        box-shadow: 2px 2px 2px #ababab;
+    }
+}
+
+/* #endregion */
+
