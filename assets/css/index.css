@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
 /* #region CLASSES DA FONTE */
 
 .ubuntu-light {
@@ -100,6 +104,14 @@ header {
 /* #region CONTEUDO PRINCIPAL */
 
 main {
+    .error-message {
+        background-color: #d70000;
+        margin-top: 50px;
+        padding: 10px;
+        color: #FFFFFF;
+        border-radius: 5px;
+      }
+
     .movie-list {
         margin-top: 50px;
         width: 80%;

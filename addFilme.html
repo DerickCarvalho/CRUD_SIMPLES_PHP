@@ -19,7 +19,11 @@
         </nav>
     </header>
 
-    <main class="flex-row-center">
+    <main class="flex-column-center">
+        <div id="error-message" class="error-message hidden">
+            Ocorreu um erro interno!
+        </div>
+
         <form class="flex-column-center" action="./backend/addFilme.php" method="POST">
             <div style="width: 90%; padding: 10px 0; font-size: 22px;">
                 <h3>Cadastrar Filme</h3>
@@ -32,5 +36,7 @@
             <input class="button" type="submit" value="Cadastrar">
         </form>
     </main>
+
+    <script src="./assets/js/addFilme.js"></script>
 </body>
 </html>
